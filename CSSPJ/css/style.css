@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* start nav */
+.nav_logo{
+    width: 150px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.nav_item{
+    float: right;
+}
+.nav_item li{
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.nav_item li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+}
+.nav{
+    box-shadow: 0px 10px 20px rgba(40,30,0,0.5);
+}
+.nav_item li a:hover{
+    color:orange;
+}
+.cart_nav_item{
+    margin-right: 100px;
+}
+.feature h3:hover{
+    color:orange;
+}
+.cart_nav_item{
+    margin-right: 100px;
+}
+.cart_noti{
+    position: relative;
+    top: -20px;
+    right: 9px;
+    background-color:orange;
+    padding:.3px;
+    border-style: 90%;
+    border-radius: 30%;
+    color: white;
+
+}
+/* end nav */
+
+/* start bunner */
+.container {
+    max-width: 100%; /* Ensures container adjusts to screen width */
+    padding: 20px; /* Adjust padding as per your design */
+    box-sizing: border-box; /* Ensures padding doesn't affect max-width */
+}
+
+.onlineshop2_img {
+    max-width: 100%; /* Makes the image responsive */
+    height: auto; /* Ensures aspect ratio is maintained */
+    display: block; /* Removes any default inline block space */
+}
+
+.onlineshop2_text {
+    text-align: center; /* Center aligns text content */
+    padding: 20px; /* Adds padding around text content */
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.onlineshop2_text h2 {
+    font-size: 24px; /* Adjust heading font size */
+    margin-bottom: auto; /* Adds space below heading */
+}
+
+.onlineshop2_text p {
+    font-size: 16px; /* Adjust paragraph font size */
+    line-height: 1.5; /* Increases line spacing for readability */
+}
+
+.shop_now {
+    background-color: #3498db; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Removes default button border */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    font-size: 16px; /* Button font size */
+    margin-top: 15px; /* Adds space above button */
+}
+
+
+.onlineshop2_img{
+    width: 100%;
+}
+
+.onlineshop2_text{
+    position:absolute;
+    top: 270px;
+    left: 100px;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.4) ;
+    padding:40px;
+}
+
+.onlineshop2_text h2{
+    margin-bottom: 10px;
+}
+
+.shop_now{
+    margin: 40px;
+    background-color:orange;
+    color:white ;
+    padding: 15px 35px ;
+    border:1px solid orange;
+    border-radius: 5px;
+}
+/* End Bunner */
+
+
+/* Start Features */
+
+.features {
+    display: flex;
+    justify-content: space-around; /* Adjust alignment as needed */
+    margin-top: 40px; /* Add margin for spacing */
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc; /* Border styling */
+    border-radius: 8px; /* Rounded corners */
+    width: 20%; /* Adjust width as per your design */
+    background-color: #f9f9f9; /* Background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Box shadow for depth */
+}
+
+.feature i {
+    font-size: 30px; /* Adjust icon size */
+    margin-bottom: 10px; /* Add spacing between icon and text */
+    color: #3498db; /* Icon color */
+}
+
+.feature h3 {
+    font-size: 18px; /* Title font size */
+    margin-bottom: 10px; /* Bottom margin for title */
+    color:black; /* Title color */
+    text-decoration:none;
+}
+
+.feature p {
+    text-decoration:none;
+    font-size: 14px; /* Paragraph font size */
+    color: black; /* Paragraph color */
+    line-height: 1.5; /* Adjust line height for readability */
+}
+
+.fa-truck-arrow-right,.fa-phone-volume,.fa-gift{
+    font-size: 24px;
+    color: orange;
+}
+.fa-shield-halved{
+    font-size: 30px;
+    color: orange;
+}
+/* End Features */

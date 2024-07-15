@@ -33,4 +33,27 @@ input[type="checkbox"]:checked+label{
 input[type="checkbox"]:disabled+label{
     color: gray;
 }
+ul li:first-child{
+    background-color: yellow;
+}
+ul li:last-child{
+    background-color: green;
+}
+ul li:nth-child(4){
+    background-color: red;
+}
+p:empty,div:empty{
+    background-color: rgb(45, 45, 158);
+    height: 20px;
 
+}
+#register_btn{
+    height: 35px;
+    width: 100px;
+    justify-content: right;
+    display: block;
+}
+#register_btn:hover{
+    background-color: skyblue;
+    color: white;
+}
